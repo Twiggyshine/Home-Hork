@@ -1,0 +1,268 @@
+
+
+@media (max-width: 1200px) {
+    .wrapper {
+        max-width: 100%;
+    }
+    .header__logo {
+      left: 0;
+  }
+ 
+}
+ @media (max-width: 1170px) {
+    .wrapper__table, .responsive__container {
+        max-width: 100%;  
+    }
+    .banner {
+      width: 100%;
+    }
+  
+  
+    /* 1024px */
+} 
+@media (max-width: 1024px) {
+  body {
+      font-size: 14px;
+    }
+  .wrapper {
+    width: 100%;
+ 
+  }
+  
+  .separator {
+      width: 115px;
+  }
+  .section__divider {
+    width: 143px;
+  }
+  .input-title {
+    width: 100%;
+  }
+  .poster__form {
+    width: 100%;
+  }
+  .poster__headline {
+      width: 298px;
+      font-size: 18px;
+      justify-content: center;
+  }
+   .pics {
+      height: 79.55px;
+      width: 79.55px;
+    }
+    .header-poster {
+      height: 768px; 
+    }
+    .button--secondary {
+      width: 183.099px;
+    }
+    .poster h1 {
+      font-size: 36px;
+    }
+    .soc__item {
+      font-size: 18px;
+    }
+    .soc__dskr {
+      font-size: 14px;
+     width: 100%;
+    }
+    .section__title {
+      font-size: 24px;
+    }
+    .pics__title {
+      font-size: 18px;
+    }
+    .section__stylish {
+      font-size: 24px;
+    }
+    .copyright {
+      font-size: 14px;
+    } 
+    .submit-btn,.section__button {
+      width: 318px;
+    }
+    .reviews__pics {
+      grid-gap:20px;}
+    .pics__name {
+      font-size: 18px;
+    }
+    .pics__comment {
+      width: 100%; 
+      padding-top: 40px;
+      
+    } 
+   .img {
+      width: 63px;
+      height: 63px;
+      background-repeat: no-repeat;
+      gap: 20px;
+   }
+   .input {
+      width: 486px;
+   }
+   .poster__form {
+     width: 50%;
+   }
+  }
+ 
+  
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+   }
+  .input, .textarea {
+    width: 100%;
+}
+  .hidden-menu {
+    display: block;
+}
+  .networks {
+    height:20%;
+}
+  .icons *  {
+    width: 40px;
+    height: 40px;
+}
+  .icons {
+    width: 100%;
+}
+
+
+.reviews__pics {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;  /* не работает для последнего .grid__wrapper:last-child??? */
+}
+  /* .grid__wrapper:last-child {
+  grid-column: 1 / span 2;
+  max-width: 50%;   } */
+   
+  .prices__table, .design__pics {
+    flex-wrap: wrap;
+    justify-content: center; 
+  }
+  .prices__table-item {
+    max-width: 50%;
+    width: calc(50% - 15px);
+  }
+  .prices__table-item:nth-of-type(2) {
+    bottom: 0px;
+    box-shadow: none;
+  }
+ 
+  .poster__info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+  
+  .poster__form {
+    height: 380px;
+    width: 288px;
+    } 
+
+  .cell__input {
+    margin: 20px;
+  }
+  .poster__headline {
+    font-size: 14px;
+    justify-content: center;
+
+    }
+   .input-title {
+      width: 220px;
+    }
+    
+   .poster__logo {
+      display: none;
+   }
+   .poster .wrapper  {
+     width: 100%;
+     height: 100%;
+     flex-direction: column;
+     padding-bottom: 50px;
+    }
+   .button--secondary {
+     width:320px;
+    }
+   .header-poster {
+    height: 1005px;
+    flex-direction: column;
+    } 
+    }
+
+        /* 600px */
+ 
+@media (max-width: 600px) {
+
+   .responsive__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+   .textarea {
+    height: 190px;
+   }
+   .input-title {
+    width: 100%;
+    }   
+   .reviews__pics {
+      grid-template-columns: repeat(1,1fr);
+     } 
+    .pics__comment {
+      padding-top: 50px;
+      width: 288px;
+    } 
+    .icons * 
+    { padding-left: 5px;}
+   
+  }
+        
+       /* 480px */
+
+@media (max-width: 480px) { 
+ 
+  .prices__table-item {
+    width:100%
+   }
+  .networks__wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+  .soc__item {
+    height: 100%;
+    margin-bottom: 10px; 
+  }
+  .design__pics-item {
+    width:100%;
+  }
+  .soc__dskr {
+    width: 100%;
+  }
+  .pics__comment {
+    width: 100%; }
+ 
+  .submit-btn,.section__button {
+    width: 288px;
+    height: 50px; 
+  }
+  .icons *  {
+    width: 26px;
+    height: 26px;
+  }
+  .button--secondary {
+    width:100%;
+   }
+  .form__container {
+    width:100%
+   }
+ }
+
+      /* 320px */
+
+ @media (max-width: 320px) {
+  .header__toggle-menu{
+  width: 100%;
+} 
+} 
+
+
